@@ -1,0 +1,337 @@
+/*  General CSS for the Skjellakk Norges Musikkhogskole website */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    background-image: url(images/gradient.png);
+    background-position: top;
+    background-repeat: repeat-x;
+}
+
+#header {
+    width: 990px;
+    height: 122px;
+    margin: 0px auto;
+    padding-top: 12px;
+    background-color: #fff;
+    background-image: url(images/soundwaves.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+#navigation1 {
+    width: 990px;
+    height: 38px;
+    margin: 0px auto;
+    background-color: #fff;
+    background-image: url(images/nav_background_default.png);
+    background-repeat: repeat-x;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#navigation1 a, #navigation1 a:visited {
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navigation1 a:hover, #navigation1 a:visited:hover {
+    color: #000;
+}
+
+.main_nav, .main_nav_on {
+    float: left;
+    height: 28px;
+    padding-top: 10px;
+    margin-left: 15px;
+    text-align: center;
+    background-repeat: repeat-x;
+}
+
+.main_nav_on {
+    background-image: url(images/nav_background_selected.png);
+}
+
+#navigation2 {
+    width: 990px;
+    height: 28px;
+    margin: 0px auto;
+    background-color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.details {
+    display: none;
+}
+
+#search {
+    width: 990px;
+    margin: 0px auto;
+    background-color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+input.search {
+    width: 145px;
+    background: #fff;
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #444;
+}
+
+input.search_btn {
+    background: #e7e8ea;
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border-width: 0px;
+    padding: 2px 8px;
+}
+
+.secondary_nav, .secondary_nav_on {
+    height: 23px;
+    padding-top: 5px;
+    background-color: #eee;
+    float: left;
+    display: none;
+}
+
+.secondary_nav_on {
+    display: block;
+}
+
+.secondary_nav a, .secondary_nav a:visited, .secondary_nav_on a, .secondary_nav_on a:visited {
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.secondary_nav a:hover, .secondary_nav a:visited:hover, .secondary_nav_on a:hover, .secondary_nav_on a:visited:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#main_content, #main_content_one_col {
+    width: 990px;
+    margin: 0px auto 50px auto;
+    padding-top: 7px;
+    background: #fff;
+}
+
+#main_content_one_col {
+    width: 960px;
+    padding: 7px 15px;
+}
+
+#main_content_left_col {
+    margin: 0px 15px;
+    width: 500px;
+    float: left;
+}
+
+#main_content_right_col {
+    margin: 0px 15px;
+    width: 430px;
+    float: right;
+}
+
+#about_box {
+    width: 500px;
+    background: #dfe1ee;
+    margin-bottom: 15px;
+}
+
+img.padded {
+    margin: 0px 13px 10px 0px;
+}
+
+h2 {
+    padding: 10px 0px 10px 10px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: #000;
+}
+
+h3 {
+    padding: 10px 0px 0px 10px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0px 0px 10px 0px;
+    padding-top: 20px;
+}
+
+#main_content p, #main_content_one_col p {
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+}
+
+p.attribute {
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+    text-align: right;
+}
+
+#pagination {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.pagi_nav, .pagi_count {
+    float: left;
+    background: #e7e8ea;
+    margin-left: 8px;
+    padding: 2px 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+}
+
+.pagi_count {
+    background: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+}
+
+.pagi_nav a, .pagi_nav a:visited {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.pagi_nav a:hover, .pagi_nav a:visited:hover {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+    text-decoration: underline;
+}
+
+th, td, td.alt, th a, th a:visited, td a, td a:visited, td.alt a, td.alt a:visited {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+}
+
+td.alt {
+    background: #e7e8ea;
+}
+
+th a:hover, th a:visited:hover, td a:hover, td a:visited:hover, td.alt a:hover, td.alt a:visited:hover {
+    text-decoration: underline;
+}
+
+.search_no_results {
+    display: none;
+    float: left;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+#artist_photo {
+    float: left;
+    margin-top: 10px;
+}
+
+#artist_stats {
+    float: left;
+    margin-top: 10px;
+}
+
+#artist_stats h2 {
+    padding: 0px;
+    margin: 0px 0px 0px 5px;
+}
+
+#artist_stats h4 {
+    padding: 0px;
+    margin: 0px 0px 0px 5px;
+}
+
+.player {
+    display: none;
+    padding: 5px;
+}
+
+.select_btn, .selected_btn {
+    background: #e7e8ea;
+    margin-left: 0px;
+    float: left;
+    padding: 2px 8px;
+}
+
+.selected_btn {
+    display: none;
+}
+
+.select_btn a, .select_btn a:visited, .selected_btn a, .selected_btn a:visited {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.select_btn a:hover, .select_btn a:visited:hover, .selected_btn a:hover, .selected_btn a:visited:hover {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #000;
+    text-decoration: underline;
+}
+
+#selected_take_detail_container {
+    padding: 5px;
+    margin-top: 15px;
+    width: 45%;
+    float: right;
+    background-color: #dfe1ed;
+    display: none;
+}
+
+.take_details {
+    display: none;
+}
+
