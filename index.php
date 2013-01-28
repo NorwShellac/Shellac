@@ -84,7 +84,7 @@
     <div id="main_content">
         <div id="main_content_left_col">
             <div id="about_box">
-                <h2>About Skjellack</h2>
+                <h2>About Skjellack!!!!!!!!!!</h2>
                 
                 <p><?php echo nl2br(storeFieldNames('t_About', 0, $record, true, 'EDITTEXT', 'text'))?></p>
             </div>
